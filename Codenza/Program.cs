@@ -15,6 +15,9 @@ namespace Codenza
             ProcessUserNumber.DisplayNumberInfo();
             ClassifyHeight.GroupHeight();
             AccelerationCalculator.CalculateAcceleration();
+            LeapYearChecker obj = new LeapYearChecker();
+            obj.ReadData();
+            obj.LeapCondition();
         }
     }
 }

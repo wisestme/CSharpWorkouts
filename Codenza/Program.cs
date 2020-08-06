@@ -13,11 +13,16 @@ namespace Codenza
         public static void Main()
         {
             ProcessUserNumber.DisplayNumberInfo();
+
             ClassifyHeight.GroupHeight();
+
             AccelerationCalculator.CalculateAcceleration();
+
             LeapYearChecker obj = new LeapYearChecker();
             obj.ReadData();
             obj.LeapCondition();
+
+            OddEven.CheckOddEven();
         }
     }
 }

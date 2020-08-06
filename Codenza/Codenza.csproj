@@ -48,6 +48,7 @@
     <Compile Include="Services\AccelerationCalculator.cs" />
     <Compile Include="Services\ClassifyHeight.cs" />
     <Compile Include="Services\LeapYearChecker.cs" />
+    <Compile Include="Services\OddEven.cs" />
     <Compile Include="Services\ProcessUserNumber.cs" />
   </ItemGroup>
   <ItemGroup>

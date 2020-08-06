@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 /*
- * C# to acceptheight from a user and output the category of the user's height.
+ * C# to accept height input from a user and output the category of the user's height.
  */
 namespace Codenza.Services
 {

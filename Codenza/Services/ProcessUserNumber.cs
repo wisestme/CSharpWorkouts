@@ -10,7 +10,7 @@ namespace Codenza.Services
     {
         public static void DisplayNumberInfo()
         {
-            Console.WriteLine("Please enter a number: ");
+            Console.WriteLine("(Check positive/negative) Please enter a number: ");
             int number = Convert.ToInt32(Console.ReadLine());
 
             if (number > 0)

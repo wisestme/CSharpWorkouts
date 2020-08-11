@@ -11,8 +11,7 @@ namespace Codenza.Services
     class LeapYearChecker
     {
         //static void LeapYearCheck()
-        //{
-            
+        //{   
         //    obj.ReadData();
         //    obj.LeapCondition();
         //}

@@ -26,7 +26,7 @@ namespace Codenza.Services
 
                 acc = v / t;
 
-                Console.WriteLine($"You are accelerating at {acc} m/s/s");
+                Console.WriteLine($"You are accelerating at {acc} m/s" + "\xB2");
             }
             catch
             {

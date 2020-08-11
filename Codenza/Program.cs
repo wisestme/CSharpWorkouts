@@ -12,6 +12,10 @@ namespace Codenza
     {
         public static void Main()
         {
+            DaysAdd.DynamicDateAdder();
+
+            DaysAdd.DaysAdder();
+
             ProcessUserNumber.DisplayNumberInfo();
 
             ClassifyHeight.GroupHeight();

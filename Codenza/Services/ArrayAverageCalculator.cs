@@ -25,7 +25,10 @@ namespace Codenza.Services
                 Console.WriteLine("Please enter your numbers");
                 for(int i = 0; i < numberOfItems; i++)
                 {
-                    if(int.TryParse(Console.ReadLine(), out userNumbers[i]));
+                    if (int.TryParse(Console.ReadLine(), out userNumbers[i]))
+                    { }
+                    else
+                        Console.WriteLine("Please check your input");
                 }
 
                 int sum = 0;
@@ -40,6 +43,40 @@ namespace Codenza.Services
             else
             {
                 Console.WriteLine("Please ensure you entered a valid number");
+            }
+        }
+
+        public static void HowManyOne()
+        {
+            Console.WriteLine("\nCount the number of 1s \n");
+            Console.WriteLine("How many numbers would you like to add?");
+
+            string numberOfElementsString = Console.ReadLine();
+
+            int numberOfElements;
+
+            if(int.TryParse(numberOfElementsString, out numberOfElements))
+            {
+                int[] selectedNumbers = new int[numberOfElements];
+                Console.WriteLine($"Enter {numberOfElements} numbers");
+
+                for (int i = 0; i < numberOfElements; i++)
+                {
+                    if (int.TryParse(Console.ReadLine(), out selectedNumbers[i]))
+                    { }
+                    else
+                        Console.WriteLine("Ensure your input is valid");
+                }
+
+                int counter = 0;
+                for(int i = 0; i < numberOfElements; i++)
+                {
+                    if(selectedNumbers[i] == 1)
+                    {
+                        counter++;
+                    }
+                }
+                Console.WriteLine($"There are {counter} 1s in all the numbers you entered");
             }
         }
     }

@@ -12,6 +12,8 @@ namespace Codenza
     {
         public static void Main()
         {
+            ArrayAverageCalculator.GetArrayAverage();
+
             DaysAdd.DynamicDateAdder();
 
             DaysAdd.DaysAdder();

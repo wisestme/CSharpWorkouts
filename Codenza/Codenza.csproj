@@ -52,6 +52,7 @@
     <Compile Include="Services\LeapYearChecker.cs" />
     <Compile Include="Services\OddEven.cs" />
     <Compile Include="Services\ProcessUserNumber.cs" />
+    <Compile Include="Services\SealedClass.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

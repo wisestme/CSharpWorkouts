@@ -12,6 +12,9 @@ namespace Codenza
     {
         public static void Main()
         {
+            SealedTest sealedTest = new SealedTest();
+            sealedTest.TestSealedClass();
+
             ArrayAverageCalculator.HowManyOne();
 
             ArrayAverageCalculator.GetArrayAverage();
